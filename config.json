@@ -1,0 +1,30 @@
+{
+  "oracle": {
+    "user": "SYSTEM",
+    "password": "12345",
+    "connectString": "localhost/XE"
+  },
+  "serial": {
+    "port": "COM3",
+    "options": {
+      "baudRate": 115200,
+      "dataBits": 8,
+      "parity": "none",
+      "stopBits": 1
+    }
+  },
+  "system": {
+    "adminEmail": "alexisgranja@gmail.com"
+  },
+  "email": {
+    "user": "soporte@sethlanspy.com",
+    "password": "HxPRGbqQJsMH",
+    "host":"smtp.zoho.com",
+    "port":465,
+    "secure":true
+  },
+  "workingtime":{
+    "initial":"",
+    "final":""
+  }
+}
