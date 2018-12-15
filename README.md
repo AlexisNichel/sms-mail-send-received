@@ -11,7 +11,7 @@ Conector Modulo serial con DB oracle para el envío de mensajes
 7. Ejecutar npm install y rezar para que compile, si no compila la cagaste en el paso 4 o falta actualizar algo en tu pc.
 8. Ejecutar el script db.sql en la consola de oracle. Para ello hay que abrir la consola, ejecutar conn y poner las credenciales.
 9. Configurar el archivo config.json con los parametros de la db y del puerto serial. En puerto se puede especificar el puerto por ejemplo "COM3" o se puede poner "auto" para que se conecte al primero que encuentra.
-10. Ejecutar npm install pm2 -g
+10. Ejecutar npm install pm2 -g 
 11. Cargar datos en la db, el estado debe ser "0". Cuando el mensaje es enviado se pasa a "1".
 12. Ejecutar pm2 start app.js
-13. Configurar el startup de pm2 http://pm2.keymetrics.io/docs/usage/startup/
+13. Configurar el startup de pm2 http://pm2.keymetrics.io/docs/usage/startup/ , si es windows crear un starup cmd
