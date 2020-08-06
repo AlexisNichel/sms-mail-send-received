@@ -17,8 +17,9 @@ Obs: Descargar versión que corresponda.
 5. Clonar repositorio https://github.com/AlexisNichel/sms-mail-send-received.git , si se omitió paso 1 se debe descargar como zip y descomprimir.
 6. Ejecutar npm install esperar a que compile, si no compila probar actualizar windows, y verificar que los path del compilador de c++, python y node se encuentren configurados correctamente y luego reintentar.
 7. Ejecutar el script db.sql en la consola de oracle. Para ello hay que abrir la consola, ejecutar conn y poner las credenciales.
-8. Configurar el archivo config.json con los parametros de la db y del puerto serial. En puerto se puede especificar el puerto por ejemplo "COM3" o se puede poner "auto" para que se conecte al primero que encuentra.
-9. Ejecutar npm install pm2 -g 
-10. Cargar datos en la db, el estado debe ser "0". Cuando el mensaje es enviado se pasa a "1".
-11. Ejecutar pm2 start app.js
-12. Configurar el startup de pm2 http://pm2.keymetrics.io/docs/usage/startup/ , si es windows crear un starup cmd
+8. Configurar el archivo config.json con los parametros de la db y del puerto serial, también las credenciales para el oracle. En puerto se puede especificar el puerto por ejemplo "COM3" o se puede poner "auto" para que se conecte al primero que encuentra.
+9. Ejecutar "node app.js" y verificar que la conexión se inicie correctamente. En este punto puede dar problema de dependencias de librería "Oracle Instant Client library" si no coincide con la version del sistema operativo, para ello debemos descargar desde la página de oracle https://www.oracle.com/database/technologies/instant-client.html , o podemos probar con "npm install instantclient" desde la consola. Este último podría no funcionar dependiendo del S.O., para ambos casos necesitamos tener creada una cuenta en oracle.
+10. Ejecutar npm install pm2 -g 
+11. Cargar datos en la db, el estado debe ser "0". Cuando el mensaje es enviado se pasa a "1".
+12. Ejecutar pm2 start app.js
+13. Configurar el startup de pm2 http://pm2.keymetrics.io/docs/usage/startup/ , si es windows crear un starup cmd
