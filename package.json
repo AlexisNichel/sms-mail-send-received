@@ -10,7 +10,7 @@
   "dependencies": {
     "http": "0.0.0",
     "nodemailer": "^4.6.8",
-    "oracledb": "oracle/node-oracledb.git#v3.0.1",
+    "oracledb": "oracle/node-oracledb.git#v5.0.0",
     "serialport": "^7.0.2",
     "winston": "^3.1.0"
   }
