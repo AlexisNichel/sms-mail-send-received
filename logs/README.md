@@ -1,1 +1,1 @@
-Crear SRL D2 
+Directorio de logs de eventos
