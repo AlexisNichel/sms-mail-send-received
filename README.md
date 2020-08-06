@@ -10,11 +10,11 @@ Obs: Descargar versión que corresponda.
 - Acceder nuevamente al administrador de dispositivos, en la zona de “puertos com y lpt” verificar y recordar el puerto al que se asigno.
 
 #Instrucciones
-1. Instalar git en su pc.
+1. Instalar git en su pc. (Este paso se puede omitir al instalar en la máquina del cliente)
 2. Instalar node (v8) recomendada.
 3. Instalar oracle XE (11g) recomendada. (XE es para pruebas).
 4. Ejecutar consola como admin y ejecutar "npm install -g windows-build-tools" (tambien se puede instalar las librerias de compilacion independiente python 2.7, gcc o g++).
-5. Clonar repositorio https://github.com/AlexisNichel/sms-mail-send-received.git
+5. Clonar repositorio https://github.com/AlexisNichel/sms-mail-send-received.git , si se omitió paso 1 se debe descargar como zip y descomprimir.
 6. Crear carpeta logs por las dudas.
 7. Ejecutar npm install y rezar para que compile, si no compila la cagaste en el paso 4 o falta actualizar algo en tu pc.
 8. Ejecutar el script db.sql en la consola de oracle. Para ello hay que abrir la consola, ejecutar conn y poner las credenciales.
