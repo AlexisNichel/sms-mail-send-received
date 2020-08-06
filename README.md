@@ -15,7 +15,7 @@ Obs: Descargar versión que corresponda.
 3. Instalar oracle XE (11g) recomendada. (XE es para pruebas), Esto posiblemente ya se encuentre instalado en la máquina del cliente.
 4. Ejecutar consola como admin y ejecutar "npm install -g windows-build-tools" (tambien se puede instalar las librerias de compilacion independiente python 2.7, gcc o g++). Es muy importante que la consola sea ejecutada como admin. Este proceso tarda bastante (Entre 10 min y 1 hora dependiendo del internet).
 5. Clonar repositorio https://github.com/AlexisNichel/sms-mail-send-received.git , si se omitió paso 1 se debe descargar como zip y descomprimir.
-6. Crear carpeta logs por las dudas.
+6. Crear carpeta con nombre "logs" en el directorio raíz del proyecto (A futuro lo agrego al proyecto para omitir este paso).
 7. Ejecutar npm install y rezar para que compile, si no compila la cagaste en el paso 4 o falta actualizar algo en tu pc.
 8. Ejecutar el script db.sql en la consola de oracle. Para ello hay que abrir la consola, ejecutar conn y poner las credenciales.
 9. Configurar el archivo config.json con los parametros de la db y del puerto serial. En puerto se puede especificar el puerto por ejemplo "COM3" o se puede poner "auto" para que se conecte al primero que encuentra.
