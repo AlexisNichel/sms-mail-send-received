@@ -11,7 +11,7 @@ Obs: Descargar versión que corresponda.
 
 #Instrucciones
 1. Instalar git en su pc. (Este paso se puede omitir al instalar en la máquina del cliente)
-2. Instalar node (v8) recomendada.
+2. Instalar node (v8) recomendada. https://nodejs.org/dist/latest-v8.x/ bajar el msi que corresponda a la arquitectura.
 3. Instalar oracle XE (11g) recomendada. (XE es para pruebas).
 4. Ejecutar consola como admin y ejecutar "npm install -g windows-build-tools" (tambien se puede instalar las librerias de compilacion independiente python 2.7, gcc o g++).
 5. Clonar repositorio https://github.com/AlexisNichel/sms-mail-send-received.git , si se omitió paso 1 se debe descargar como zip y descomprimir.
