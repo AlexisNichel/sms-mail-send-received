@@ -1,6 +1,14 @@
 # GPRS-GSM-Oracle
 Conector Modulo serial con DB oracle para el envío de mensajes
 
+#Previo (Drivers)
+- Conectar lector al puerto usb
+- Ingresar a administrador de dispositivos y localizar el dispositivo con nombre CP2102 
+- Si el dispositivo es desconocido tenemos que instalar el Driver del mismo: https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+Obs: Descargar versión que corresponda.
+- Instalar el Driver que corresponda según la arquitectura (x86 o x64)
+- Acceder nuevamente al administrador de dispositivos, en la zona de “puertos com y lpt” verificar y recordar el puerto al que se asigno.
+
 #Instrucciones
 1. Instalar git en su pc.
 2. Instalar node (v8) recomendada.
